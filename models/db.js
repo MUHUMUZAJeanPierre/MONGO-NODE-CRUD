@@ -9,6 +9,4 @@ const dbConnection = async() => {
         throw new Error('Unable to connect to database');
     }
 }
-module.exports = {
-    dbConnection
-}
+module.exports = {dbConnection}
